@@ -30,3 +30,9 @@ if (HAL_GetTick() - lps22hb_timer >= lps22hb.compute_time) {
     lps22hb_timer = HAL_GetTick();
 }
 ```
+
+## TODO
+```
+[x] Add altitude calculation
+[ ] Add i2c and 4-Wire SPI Support
+```
